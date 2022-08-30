@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayout"
+    tools:context=".Fragement_Login">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_baseline_login_24"
+        android:layout_marginTop="100dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="EnterName / Email Id"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center_horizontal">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FA0808"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20dp">
+    </Button>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="655dp">
+    </TextView>
+
+
+
+</FrameLayout>
